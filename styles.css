@@ -1,5 +1,7 @@
 
+
 body {
+  padding: 0;
   margin: 0px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   box-sizing: border-box;
@@ -22,6 +24,11 @@ h2 {
 }
 
 #container {
+  position: absolute;
+  /* bottom: 50px; */
+  top: 0;
+  right: 0;
+  left: 0;
   background-color: rgb(250, 249, 249);
   overflow: hidden;
   box-shadow: 0 0 15px rgb(185, 185, 185);
@@ -74,6 +81,7 @@ h2 {
 }
 
 .bottom-menu {
+  /* position: absolute; */
   display: inline-block;
   list-style: none;
   margin: 0;
@@ -95,10 +103,15 @@ h2 {
   color: inherit;
 }
 
+p {
+  margin: 2rem;
+}
+
 .bottom-menu li:hover {
   background-color: rgb(166, 218, 248);
   color:rgb(77, 184, 250) ;
   padding-left: 1.4rem;
+
 }
 
 @media only screen and (max-width: 800px) {
@@ -109,3 +122,4 @@ h2 {
     display: inline-block;
   }
 }
+

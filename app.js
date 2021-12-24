@@ -14,6 +14,7 @@ let hightNav = containerNavEl.clientHeight;
 let hightCont = containerEl.clientHeight;
 
 containerEl.style.height = hightNav+"px";
+document.body.style.paddingTop = hightNav+"px"
 
 menuEl.addEventListener("click", () => {
     if (!menuIsOpen) {
